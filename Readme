@@ -1,0 +1,36 @@
+# ScribeIntel AI Engine 📝🔐
+Advanced Graphology Profiling & Live FastAPI Signature Forensics Platform.
+
+## 🚀 How to Run the Project Locally
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/anvith007/Analysis---02.git](https://github.com/anvith007/Analysis---02.git)
+cd Analysis---02
+
+
+
+2. Set Up a Virtual Environment
+# Create environment
+python -m venv venv
+
+# Activate (Windows PowerShell)
+.\venv\Scripts\Activate.ps1
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+
+
+3. Install Dependencies
+pip install fastapi uvicorn tensorflow opencv-python numpy python-multipart
+
+4. Compile the Model Tensors
+python train_models.py
+
+5. Launch the FastAPI Backend Engine
+cd backend
+uvicorn main:app --reload
+The backend API will run live at http://127.0.0.1:8000
+
+
